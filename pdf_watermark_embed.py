@@ -45,10 +45,4 @@ if __name__ == '__main__':
     watermarkInfo = sys.argv[3]
     file_out = sys.argv[4]
 
-    # tmp_file = "tmp.pdf"
-    # watermark = "969289210@qq.com-123@gmail.com-sdbasbdaks"
-
-    # pdf_file = "./GCN.pdf"
-    # file_out = "./out.pdf"
-
     embed_watermark(pdf_file, tmp_file, watermarkInfo, file_out)
